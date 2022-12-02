@@ -70,7 +70,8 @@ li {
 
 div.flex-container {
   display: flex;
-  margin-right: 15px;
+  margin-right: 0;
+}
 
 #contact-links {
   display: flex;
