@@ -68,7 +68,9 @@ li {
   margin-right: 15px;
 }
 
-
+div.flex-container {
+  display: flex;
+  margin-right: 15px;
 
 #contact-links {
   display: flex;
