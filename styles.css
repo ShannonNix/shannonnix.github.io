@@ -69,6 +69,7 @@ li {
 
 div.flex-container {
  text-align: center;
+  margin: auto;
 }
 
 #contact-links {
