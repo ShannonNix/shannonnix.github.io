@@ -68,7 +68,7 @@ li {
 }
 
 div.flex-container {
-  margin-right: 45px;
+ 
 }
 
 #contact-links {
@@ -198,7 +198,7 @@ p {
   background-image: linear-gradient(62deg, #3a3d40 100%, #181719 100%);
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1200px) {
   .flex-container {
     flex-direction: column;
   }
