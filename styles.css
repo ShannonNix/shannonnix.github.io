@@ -65,12 +65,10 @@ li {
 
 .flex-container {
   display: flex;
+  margin-right: 15px;
 }
 
-div.flex-container {
- text-align: center;
-  margin: auto;
-}
+
 
 #contact-links {
   display: flex;
