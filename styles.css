@@ -70,7 +70,8 @@ li {
 
 div.flex-container {
   display: flex;
-  align-items: space-around;
+  align-content: flex-end;
+  justify-content: space-evenly;
 }
 
 #contact-links {
