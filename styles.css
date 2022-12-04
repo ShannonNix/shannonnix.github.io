@@ -81,9 +81,12 @@ div.flex-container {
 h1 {
   color: white;
   font-size: 58px;
-  font-family: railway, sans-serif;
+  font-family: "raleway", sans-serif;
   margin-bottom: 2px;
   padding-bottom: 0px;
+  animation-name: bounce;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
 }
 
 h2 {
@@ -140,27 +143,37 @@ p {
 #projects {
   background-color: white;
 }
+
+.project-heading {
+  padding-right: 30px;
+  padding-top: 15px;
+  color: black;
+  font-weight: 100;
+}
 .project-image-one {
   width: 400px;
   height: 400px;
-  padding-top: 45px;
-  padding-left: 50px;
+  padding-top: 50px;
+  padding-left: 65px;
   padding-bottom: 15px;
+  padding-right: 7px;
   filter: drop-shadow(5px 5px 2px grey);
 }
 
 .project-image-two {
   width: 400px;
   height: 400px;
-  padding-top: 45px;
+  padding-top: 50px;
   padding-bottom: 15px;
+  padding-right: 7px;
   filter: drop-shadow(5px 5px 2px grey);
 }
 
 .project-image-three {
   width: 400px;
   height: 400px;
-  padding-top: 45px;
+  padding-top: 50px;
+  padding-right: 50px;
   padding-bottom: 15px;
   filter: drop-shadow(5px 5px 2px grey);
 }
@@ -168,8 +181,9 @@ p {
 .project-image-four {
   width: 400px;
   height: 400px;
-  padding-left: 50px;
+  padding-left: 65px;
   padding-bottom: 15px;
+  padding-right: 7px;
   filter: drop-shadow(5px 5px 2px grey);
 }
 
@@ -177,13 +191,19 @@ p {
   width: 400px;
   height: 400px;
   padding-bottom: 15px;
+  padding-right: 7px;
   filter: drop-shadow(5px 5px 2px grey);
 }
 
+html {
+  padding-right: 0;
+  margin-right: 0;
+}
 .project-image-six {
   width: 400px;
   height: 400px;
   padding-bottom: 15px;
+  padding-right: 50px;
   filter: drop-shadow(5px 5px 2px grey);
 }
 
@@ -192,10 +212,30 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 0;
+  padding-right: 0;
   width: 100%;
   height: 100vh;
   background-color: #303841;
   background-image: linear-gradient(62deg, #3a3d40 100%, #181719 100%);
+}
+
+.penguin,
+.build-a-penguin {
+  padding-right: 25px;
+}
+.magazine,
+.registration {
+  padding-left: 40px;
+}
+
+.registration,
+.cafe,
+.penguin {
+  padding-bottom: 100px;
+}
+.nutrition {
+  padding-right: 40px;
 }
 
 @media (max-width: 1200px) {
