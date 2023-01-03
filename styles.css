@@ -63,6 +63,15 @@ li {
   font-style: italic;
 }
 
+img {
+  border-radius: 50%;
+}
+.construction {
+  color: black;
+  padding-top: 150px;
+  padding-left: 300px;
+}
+
 .flex-container {
   display: flex;
   margin-right: 15px;
@@ -115,6 +124,7 @@ button {
   color: white;
   filter: drop-shadow(2px 2px 1px #5a5a5a);
   padding-top: 25px;
+  cursor: pointer;
 }
 
 p {
